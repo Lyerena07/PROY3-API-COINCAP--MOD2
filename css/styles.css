@@ -1,3 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-background-color: lightgray;
+    background-color: #E7ECEF;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #274C77;
+    height: 50px;
+    color: white;
+    
+}
+
+header .logoCoincap {
+    width: 100px;
+    margin: 5px 20px;
+}
+
+header .tituloHeader {
+    width: auto;
+    font-size: clamp(0.8rem, 2.5vw, 1.3rem);
+}
+
+
+/* Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 460px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
 }
