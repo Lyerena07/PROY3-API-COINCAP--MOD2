@@ -11,9 +11,8 @@ body {
 
 header {
     background-color: #274C77;
-    height: 50px;
+    height: auto;
     color: white;
-    
 }
 
 header .logoCoincap {
@@ -26,13 +25,41 @@ header .tituloHeader {
     font-size: clamp(0.8rem, 2.5vw, 1.3rem);
 }
 
-main.myChart{
-    height: 300px;
+main {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div .contenerPrecioDolar {
+    height: 200px;
+    width: 300px;
+    color: white;
+    background-color: #6096BA;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+
+}
+
+div .contenedorGraphTopFive {
+    color: white;
+    background-color: #6096BA;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+div .myChart{
+    height: 350px;
     width: 700px; 
     margin: 5px 20px;   
-    background-color: lightgray;
-    position:fixed;
-    right: 50px;
+    background-color: #E7ECEF;
 }
 
 
