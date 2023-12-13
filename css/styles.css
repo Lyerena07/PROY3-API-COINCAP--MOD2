@@ -32,7 +32,7 @@ main {
     align-items: center;
 }
 
-div .contenerPrecioDolar {
+div .contenedorPrecioDolar {
     height: 200px;
     width: 300px;
     color: white;
@@ -42,6 +42,12 @@ div .contenerPrecioDolar {
     text-align: center;
     padding: 10px;
 
+}
+
+.precioDolarText {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 24px;
 }
 
 div .contenedorGraphTopFive {
