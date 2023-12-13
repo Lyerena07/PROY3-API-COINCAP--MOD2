@@ -26,6 +26,16 @@ header .tituloHeader {
     font-size: clamp(0.8rem, 2.5vw, 1.3rem);
 }
 
+main.myChart{
+    height: 300px;
+    width: 700px; 
+    margin: 5px 20px;   
+    background-color: lightgray;
+    position:fixed;
+    right: 50px;
+}
+
+
 
 /* Media Queries */
 
