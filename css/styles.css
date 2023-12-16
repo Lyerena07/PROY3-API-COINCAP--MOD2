@@ -50,6 +50,10 @@ div .contenedorPrecioDolar {
     font-size: 24px;
 }
 
+.iconoDolar {
+    margin-top: 10px;
+}
+
 div .contenedorGraphTopFive {
     color: white;
     background-color: #6096BA;
