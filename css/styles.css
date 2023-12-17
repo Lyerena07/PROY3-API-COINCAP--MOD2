@@ -93,6 +93,30 @@ div .myChart{
     background-color: #E7ECEF;
 }
 
+.footerFinal {
+    background-color: #274C77;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+footer .logoCoincap {
+    width: 100px;
+    margin: 5px 20px;
+}
+
+footer .integrante1 {
+    width: auto;
+    font-size: clamp(0.8rem, 2.5vw, 1.3rem);
+}
+
+footer .integrante2 {
+    width: auto;
+    font-size: clamp(0.8rem, 2.5vw, 1.3rem);
+}
+
 
 
 /* Media Queries */
