@@ -107,41 +107,36 @@ footer .logoCoincap {
     margin: 5px 20px;
 }
 
-footer .integrante1 {
+footer .integrantes {
     width: auto;
     font-size: clamp(0.8rem, 2.5vw, 1.3rem);
-}
-
-footer .integrante2 {
-    width: auto;
-    font-size: clamp(0.8rem, 2.5vw, 1.3rem);
+    padding: 5px;
 }
 
 
 
 /* Media Queries */
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 460px) { 
-
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+    div .myChart {
+        width: 500px;
+        height: 300px;
+    }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+    div .myChart {
+        width: 300px;
+        height: 180px;
+    }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-
+/* Extra small devices (phones, 375 and down) */
+@media (max-width: 375px) {
+    div .myChart {
+        width: 250px; /* Ancho para teléfonos */
+        height: 150px; /* Altura para teléfonos */
+    }
 }
