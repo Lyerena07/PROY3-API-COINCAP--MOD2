@@ -1,5 +1,3 @@
-const myChart_Top5 = document.getElementById("myChart_Top5");
-
 // Función para realizar una petición a la API y obtener los datos
 const fetchTopCryptoByPrice = async () => {
   try {
@@ -14,8 +12,11 @@ const fetchTopCryptoByPrice = async () => {
   }
 };
 
-const topFiveGraph = async () => {
+// Función para crear y mostrar la gráfica del top 5
+export const createTopFiveGraph = async (elementId) => {
   const topFiveData = await fetchTopCryptoByPrice();
+
+  const myChart_Top5 = document.getElementById(elementId);
 
   // Procesamos los datos para la gráfica
   const labels = topFiveData.map(coin => coin.id); // Usamos el ID como etiqueta
@@ -50,5 +51,3 @@ const topFiveGraph = async () => {
     },
   });
 };
-
-window.addEventListener("load", topFiveGraph);

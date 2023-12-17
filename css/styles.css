@@ -136,7 +136,7 @@ footer .integrantes {
 /* Extra small devices (phones, 375 and down) */
 @media (max-width: 375px) {
     div .myChart {
-        width: 250px; /* Ancho para teléfonos */
-        height: 150px; /* Altura para teléfonos */
+        width: 250px; 
+        height: 150px;
     }
 }
